@@ -8,11 +8,12 @@ Pod::Spec.new do |spec|
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.authors           = {
     'Antoine van der Lee' => 'antoine@wetransfer.com',
-    'Samuel Beek' => 'ik@samuelbeek.com'
+    'Samuel Beek' => 'ik@samuelbeek.com',
+    'Jack Spargo' => 'hello@jackspargo.com'
   }
   spec.source           = { :git => 'https://github.com/WeTransfer/Mocker.git', :tag => spec.version.to_s }
   spec.social_media_url = 'https://twitter.com/WeTransfer'
 
-  spec.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = '8.0'
   spec.source_files = 'Sources/**/*'
 end
